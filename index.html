@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fazenda Mais Verde</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        background: #4caf50;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav {
+        margin: 10px 0;
+      }
+      nav a {
+        margin: 0 15px;
+        color: #4caf50;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .section {
+        display: none;
+        padding: 20px;
+        background: white;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .active {
+        display: block;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #4caf50;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      ul {
+        list-style-type: none; /* Remove os marcadores da lista */
+        padding: 0; /* Remove o padding padrão */
+      }
+      li {
+        margin: 10px 0; /* Espaço entre os itens da lista */
+      }
+      a {
+        text-decoration: none; /* Remove o sublinhado */
+        color: black; /* Muda a cor do texto para preto */
+        font-weight: bold; /* Deixa o texto em negrito */
+      }
+      a:hover {
+        color: green; /* Muda a cor ao passar o mouse */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🌳 Fazenda Mais Verde 🌳</h1>
+    </header>
+
+    <nav>
+      <a href="#" onclick="showSection('section1')">♻️ O que é Reciclagem?</a>
+      <a href="#" onclick="showSection('section2')"
+        >🌍 Importância da Reciclagem</a
+      >
+      <a href="#" onclick="showSection('section3')"
+        >🗓️ Quando o Caminhão Passa?</a
+      >
+    </nav>
+
+    <div id="section1" class="section active">
+      <h2>O que é Reciclagem?</h2>
+      <p>
+        A reciclagem é uma prática essencial para Fazenda Rio Grande,
+        especialmente em um contexto onde a presença de um lixão impacta nossa
+        saúde e o meio ambiente. Transformar materiais que seriam descartados em
+        novos produtos não é apenas uma responsabilidade, mas uma oportunidade
+        de melhorar nossa qualidade de vida. Esse processo envolve a coleta, o
+        processamento e a reutilização de materiais como papel, plástico, vidro
+        e metais, que, quando reciclados, podem ser transformados em novos
+        produtos.
+      </p>
+
+      <p>
+        Além de reduzir a quantidade de resíduos que chegam ao lixão e aos
+        aterros sanitários, a reciclagem desempenha um papel crucial na economia
+        de recursos naturais. Por exemplo, reciclar uma tonelada de papel pode
+        salvar até 17 árvores, 26.000 litros de água e 4.000 kWh de energia.
+        Isso ilustra a importância da reciclagem não apenas para a preservação
+        do meio ambiente, mas também para a economia local.
+      </p>
+
+      <p>
+        Ao adotar a reciclagem, também estamos promovendo a criação de empregos
+        nas áreas de gerenciamento de resíduos e na indústria de produtos
+        reciclados. Essa prática ajuda a construir um futuro mais sustentável
+        para nossa comunidade e reduz a dependência do lixão. Ao nos engajarmos
+        na reciclagem, estamos fazendo um investimento em um ambiente mais
+        saudável e em um futuro mais verde para Fazenda Rio Grande e suas
+        próximas gerações.
+      </p>
+
+      <img
+        src="https://ecrie.com.br/sistema/conteudos/imagem/g_61_0_1_08032021111138.jpg"
+        alt="O que é Reciclagem?"
+        style="max-width: 100%; height: auto; margin-top: 20px"
+      />
+    </div>
+
+    <div id="section2" class="section">
+      <h2>Importância da Reciclagem</h2>
+
+      <p>
+        A reciclagem é uma prática vital para a preservação do meio ambiente e a
+        sustentabilidade do nosso planeta. Ao reciclar, estamos contribuindo
+        para a redução do consumo de recursos naturais, como água, energia e
+        matérias-primas. Isso ajuda a minimizar a exploração dos ecossistemas e
+        a conservação da biodiversidade.
+      </p>
+
+      <p>
+        Além disso, a reciclagem desempenha um papel crucial na redução da
+        quantidade de resíduos sólidos gerados. Com mais pessoas adotando a
+        reciclagem, a quantidade de lixo enviado para aterros sanitários
+        diminui, resultando em menos poluição do solo e da água. A reciclagem
+        também ajuda a reduzir a emissão de gases de efeito estufa, contribuindo
+        para o combate às mudanças climáticas.
+      </p>
+
+      <p>
+        Outro aspecto importante da reciclagem é a criação de uma economia
+        circular. Em vez de descartar produtos, a reciclagem permite que
+        materiais sejam reutilizados e transformados em novos produtos,
+        fomentando um ciclo sustentável de consumo. Essa abordagem não apenas
+        gera economia, mas também promove a inovação e o desenvolvimento de
+        novas tecnologias para a gestão de resíduos.
+      </p>
+
+      <img
+        src="https://www.ferrovelhocoradin.com.br/wp-content/uploads/2019/04/Reciclagem.jpg"
+        alt="Reciclagem"
+        style="max-width: 100%; height: auto; margin-top: 20px"
+      />
+    </div>
+
+    <div id="section3" class="section">
+      <h2>Quando o Caminhão Passa?</h2>
+      <p>Abaixo estão os links para visualizar os horários de coleta:</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.google.com/maps/d/viewer?mid=1Y0a8VcEQ1ULLWpgLMCtBkYbbT8pk3VGD&ll=-25.66140056228565%2C-49.28866241957762&z=13"
+            target="_blank"
+            >☀️ Coleta Diurna</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://qgiscloud.com/Florestal/Coleta_de_lixo_Noite_Seletiva/?l=Coleta%20Seletiva%20Noturna&bl=mapnik&t=Coleta_de_lixo_Noite_Seletiva&e=-5500135%2C-2961780%2C-5479815%2C-2952139"
+            target="_blank"
+            >🌙 Coleta Noturna</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Fazenda Mais Verde</p>
+    </footer>
+
+    <script>
+      function showSection(sectionId) {
+        const sections = document.querySelectorAll(".section");
+        sections.forEach((section) => {
+          section.classList.remove("active");
+        });
+        document.getElementById(sectionId).classList.add("active");
+      }
+    </script>
+  </body>
+</html>
