@@ -19,15 +19,32 @@
       }
       nav {
         margin: 10px 0;
+        display: flex; /* Usando Flexbox para layout */
+        flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha, se necessário */
+        justify-content: center; /* Centraliza os links horizontalmente */
       }
+
       nav a {
-        margin: 0 15px;
+        margin: 5px 15px; /* Reduzindo a margem vertical para se ajustar melhor em telas menores */
         color: #4caf50;
         text-decoration: none;
         font-weight: bold;
       }
+
       nav a:hover {
         text-decoration: underline;
+      }
+
+      /* Responsividade para telas menores */
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column; /* Coloca os links em coluna em telas menores */
+          align-items: center; /* Centraliza os itens verticalmente */
+        }
+
+        nav a {
+          margin: 5px 0; /* Ajusta a margem para o layout em coluna */
+        }
       }
       .section {
         display: none;
